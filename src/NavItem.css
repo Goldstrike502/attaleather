@@ -1,0 +1,12 @@
+.Nav-item a {
+    text-transform: lowercase;
+    font-size: 19px;
+    list-style: none;
+    padding: 10px 8px;
+    color: black;
+}
+.Nav-item {
+    display: inline-block;
+    font-family: 'Raleway', sans-serif;
+    margin: 10px 8px;
+}
