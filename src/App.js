@@ -1,32 +1,34 @@
 import React, { Component } from 'react';
+import {BrowserRouter as Router, Route} from 'react-router-dom';
 import './App.css';
-import {FeatureCard} from "./FeatureCard";
 import {NavItem} from "./NavItem";
+import {Home} from "./Home";
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <div className="App-header">
-            <img className="logo" src="img/logo.png" alt="logo"/>
-        </div>
-          <nav>
-            <NavItem title="home" url="/"/>
-            <NavItem title="wat is atta?" url="/"/>
-            <NavItem title="portfolio" url="/"/>
-          </nav>
-          <div className="Feature-list">
-              <FeatureCard image="/img/uploads/latenmaken.JPG"
-                           titel="Laten maken"
-                           content="Voor grote en kleine voeten en alles daartussen in, maak ik op maat gemaakte unieke schoenen die ik samen met jou ontwerp!" />
-              <FeatureCard image="/img/uploads/lerenmaken.JPG"
-                           titel="Leren maken"
-                           content="Inspirerende workshops waar je je eigen unieke en op maat gemaakte schoenen leert maken." />
-              <FeatureCard image="/img/uploads/projecten.JPG"
-                           titel="Projecten"
-                           content="Regelmatig komen er bijzondere projecten met of zonder samenwerkingspartners voorbij." />
+      <Router>
+        <div className="App">
+          <div className="App-header">
+              <img className="logo" src="img/logo.png" alt="logo"/>
           </div>
-      </div>
+            <nav>
+              <NavItem title="home" to="/"/>
+              <NavItem title="wat is atta?" to="/wat-is-atta"/>
+              <NavItem title="portfolio" to="/portfolio"/>
+            </nav>
+
+            <Route exact path="/" component={Home} />
+            {/* 
+            Hier boven link ik de URL (/) aan het component wat op dat moment getoond moet worden
+            Voorbeeld voor andere pagina's:
+            <Route path="/portfolio" component={PortfolioComponent}/> 
+            
+            zie voor overige voorbeelden:
+            https://reacttraining.com/react-router/web/guides/quick-start
+            */}
+        </div>
+      </Router>
     );
   }
 }
