@@ -15,7 +15,7 @@ class App extends Component {
           <div className="container">
                 <img className="logo" src="img/logo.png" alt="logo"/>
               <nav>
-                <NavItem title="home" to="/"/>
+                <NavItem title="home" to="/" exact={true}/>
                 <NavItem title="workshops" to="/workshops"/>
                 <NavItem title="portfolio" to="/portfolio"/>
                 <navItem title="Agenda" to="agenda" />
