@@ -6,12 +6,19 @@ section {
     max-width: 1000px;
     margin: 0 auto;
     text-align: center;
+
 }
-section h1{
-    color: #382515;
-    font-size: 24px;
+h1{
+    color: #FBF3DA;
+    background: url("/img/h1-bg.svg");
+    background-size: cover;
+    font-size: 38px;
+    font-family: 'Bitter', serif;
+    font-weight: 400;
+    margin: 0;
+    text-align: center;
 }
-section h1 span{
+h1 span{
     color: #01AFA3;
 }
 section hr {
@@ -42,13 +49,21 @@ section button:hover{
 .bg-white{
     background: #FBF3DA;
 }
+.bg-white h1{
+    background: none;
+    color: #382515;
+}
 .bg-transparant{
     background-image: url("/img/call-to-actions.jpg");
     background-size: cover;
 }
 .bg-transparant h1{
     color: white;
+    background: none;
 }
 .call-to-action{
     padding: 40px 0;
+}
+.watisatta img{
+    float: right;
 }

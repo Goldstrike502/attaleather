@@ -7,7 +7,7 @@ export class Home extends React.Component {
 <div className="Home">
             <div className="bg-white">
                 <section>
-                    <h1><span>ATTA</span> is het leeratelier van Anita Hardeman,sinds 2016 gevestigd in de Stadstuin Utrecht.
+                    <h1><span>ATTA</span> is het leeratelier van Anita Hardeman, sinds 2016 gevestigd in de Stadstuin Utrecht.
                     </h1>
                     <p>Een Leeratelier, met leer in alle soorten en kleuren; onder andere op natuurlijke wijze gelooid en
                         gekleurd Ecopell leer. Én: een Leeratelier, waarin echt wat te leren valt. Anita leert zelf nog elke
@@ -25,25 +25,24 @@ export class Home extends React.Component {
                 </section>
             </div>
             <div className="watisatta">
+                <h1>Wat is <span>ATTA</span>?</h1>
                 <section>
-                    <h1>Wat is atta?</h1>
                     <img src="/img/Anita.png"/>
-                    <p>ATTA Shoe and Leatherdesign
-
-                        ATTA is het leeratelier van Anita Hardeman, sinds 2016 gevestigd in de Stadstuin.
-
+                        <p>
+                        <br />
                         Een Leeratelier, met leer in alle soorten en kleuren; onder andere op natuurlijke wijze gelooid
                         en gekleurd Ecopell leer. Én: een Leeratelier, waarin echt wat te leren valt. Anita leert zelf
                         nog elke dag. En deelt dat graag met jou, in leerzame workshops.
-
-                        “Als je stappen maakt, moet je dat met schoenen doen.”
-
+                        <br /><br />
+                            <strong>“Als je stappen maakt, moet je dat met schoenen doen.”</strong>
+                            <br /><br />
                         Anita Hardeman wilde de volgende stap maken in haar leven. Na jaren van hulpverlening, wilde ze
                         zelf iets uit haar handen laten komen. Liefst iets om aan haar voeten te trekken. Niet in de
                         laatste plaats omdat ze zelf een doorgeslagen schoenen- en laarzengek is.
+                            <br /><br />
 
 
-                        Leertijd
+                            <h2>Leertijd</h2>
 
                         Ze ging in de leer bij topontwerpers Rene van den Berg en Liesel Swart, en rondde in 2017 haar
                         opleiding Ambachtelijk Schoenmaken aan Dutch Shoe Academy in Utrecht af. Om haar huiswerk goed
