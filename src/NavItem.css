@@ -1,12 +1,18 @@
+.Nav-item a.active {
+    color: #7CC2CE;
+    background: #382515;
+}
 .Nav-item a {
-    text-transform: lowercase;
     font-size: 19px;
     list-style: none;
-    padding: 10px 8px;
-    color: black;
+    padding: 10px 16px;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    color: #382515;
+    text-transform: uppercase;
+    font-weight: 500;
 }
 .Nav-item {
     display: inline-block;
-    font-family: 'Raleway', sans-serif;
-    margin: 10px 8px;
+    margin: 10px 16px;
 }

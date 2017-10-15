@@ -9,25 +9,22 @@ class App extends Component {
     return (
       <Router>
         <div className="App">
-          <div className="App-header">
-              <img className="logo" src="img/logo.png" alt="logo"/>
-          </div>
-            <nav>
-              <NavItem title="home" to="/"/>
-              <NavItem title="wat is atta?" to="/wat-is-atta"/>
-              <NavItem title="portfolio" to="/portfolio"/>
-            </nav>
+          <img src="/img/header-bg.jpg"/>
+            <div className="App-header">
 
-            <Route exact path="/" component={Home} />
-            {/* 
-            Hier boven link ik de URL (/) aan het component wat op dat moment getoond moet worden
-            Voorbeeld voor andere pagina's:
-            <Route path="/portfolio" component={PortfolioComponent}/> 
-            
-            zie voor overige voorbeelden:
-            https://reacttraining.com/react-router/web/guides/quick-start
-            */}
+          <div className="container">
+                <img className="logo" src="img/logo.png" alt="logo"/>
+              <nav>
+                <NavItem title="home" to="/"/>
+                <NavItem title="workshops" to="/workshops"/>
+                <NavItem title="portfolio" to="/portfolio"/>
+                <navItem title="Agenda" to="agenda" />
+                <NavItem title="contact" to="/contact"/>
+              </nav>
         </div>
+            </div>
+            <Route exact path="/" component={Home} />
+          </div>
       </Router>
     );
   }
