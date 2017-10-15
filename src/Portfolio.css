@@ -1,0 +1,11 @@
+@import "./../node_modules/react-image-gallery/styles/css/image-gallery.css";
+
+.image-gallery-thumbnails-wrapper{
+    border-color: #FBF3DA;
+    background: url("/img/h1-bg.svg");
+    background-size: cover;
+    margin: -4px -2px 0 -2px;
+}
+.image-gallery{
+    margin-top: -115px;
+}
