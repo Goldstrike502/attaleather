@@ -1,6 +1,8 @@
 .App {
   background: #FBF3DA;
   min-height: 100vh;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 .App img{
   max-width: 100%;

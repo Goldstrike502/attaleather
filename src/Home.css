@@ -1,3 +1,6 @@
+.intro{
+    min-height: calc(100vh - 320px);
+}
 section {
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
@@ -15,7 +18,7 @@ h1{
     font-size: 38px;
     font-family: 'Bitter', serif;
     font-weight: 400;
-    margin: 0;
+    margin: -5px;
     text-align: center;
 }
 h1 span{
@@ -56,6 +59,7 @@ section button:hover{
 .bg-transparant{
     background-image: url("/img/call-to-actions.jpg");
     background-size: cover;
+    min-height: calc(100vh - 630px);
 }
 .bg-transparant h1{
     color: white;
@@ -66,4 +70,5 @@ section button:hover{
 }
 .watisatta img{
     float: right;
+    margin: 0 0 12px 12px;
 }
