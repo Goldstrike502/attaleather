@@ -1,8 +1,16 @@
 import React from 'react';
 import './Portfolio.css';
 import ImageGallery from 'react-image-gallery';
+import {client} from './App';
 
 export class Portfolio extends React.Component {
+    constructor(){
+        super();
+        client.getEntries({'content_type': 'portfolioItem'}).then((response) => {
+            // output the author name
+            console.log(response)
+        })
+    }
 
     render() {
 
