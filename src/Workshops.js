@@ -31,16 +31,112 @@ export class Workshops extends React.Component {
                 <div className="workshop">
                     <Tabs>
                         <TabList>
-                            <Tab><header><h2>Titel</h2></header></Tab>
-                            <Tab><header><h2>Titel2</h2></header></Tab>
+                            <Tab>
+                                <header><h2>Espadrilles</h2></header>
+                            </Tab>
+                            <Tab>
+                                <header><h2>Clogs</h2></header>
+                            </Tab>
+                            <Tab>
+                                <header><h2>Babyslofjes</h2></header>
+                            </Tab>
+                            <Tab>
+                                <header><h2>Slippers</h2></header>
+                            </Tab>
                         </TabList>
                         <TabPanel>
                             <div className="workshop-content">
-                                <img src="/img/espadrilles_klein.jpg" alt="schoen"/>
+                                <img src="/img/espadrilles_klein.jpg" alt="espadrilles"/>
                                 <p>
-                                    Minimaal 2, maximaal 4 deelnemers<br />
-                                    Duur: ca. 6 uur<br />
-                                    Kosten: $115,00 inc. BTW en materiaal
+                                    <table>
+                                        <tr>
+                                            <td><i className="material-icons">person_add</i></td>
+                                            <td>Aantal deelnemers:</td>
+                                            <td>Minimaal 2, maximaal 4 deelnemers</td>
+                                        </tr>
+                                        <tr>
+                                            <td><i className="material-icons">access_time</i></td>
+                                            <td>Duur:</td>
+                                            <td> ca. 6 uur</td>
+                                        </tr>
+                                        <tr>
+                                            <td><i className="material-icons">euro_symbol</i></td>
+                                            <td>Kosten:</td>
+                                            <td>115,00 incl. BTW en materiaal</td>
+                                        </tr>
+                                    </table>
+                                </p>
+                            </div>
+                        </TabPanel>
+                        <TabPanel>
+                            <div className="workshop-content">
+                                <img src="/img/clogs_klein.jpg" alt="clogs"/>
+                                <p>
+                                    <table>
+                                        <tr>
+                                            <td><i className="material-icons">person_add</i></td>
+                                            <td>Aantal deelnemers:</td>
+                                            <td>Minimaal 2, maximaal 4 deelnemers</td>
+                                        </tr>
+                                        <tr>
+                                            <td><i className="material-icons">access_time</i></td>
+                                            <td>Duur:</td>
+                                            <td> ca. 7 uur</td>
+                                        </tr>
+                                        <tr>
+                                            <td><i className="material-icons">euro_symbol</i></td>
+                                            <td>Kosten:</td>
+                                            <td>125,00 incl. BTW en materiaal</td>
+                                        </tr>
+                                    </table>
+                                </p>
+                            </div>
+                        </TabPanel>
+                        <TabPanel>
+                            <div className="workshop-content">
+                                <img src="/img/babyslofjes.jpg" alt="babyslofjes"/>
+                                <p>
+                                    <table>
+                                        <tr>
+                                            <td><i className="material-icons">person_add</i></td>
+                                            <td>Aantal deelnemers:</td>
+                                            <td>Minimaal 3, maximaal 6 deelnemers</td>
+                                        </tr>
+                                        <tr>
+                                            <td><i className="material-icons">access_time</i></td>
+                                            <td>Duur:</td>
+                                            <td> ca. 3 uur</td>
+                                        </tr>
+                                        <tr>
+                                            <td><i className="material-icons">euro_symbol</i></td>
+                                            <td>Kosten:</td>
+                                            <td>39,50 incl. BTW en materiaal</td>
+                                        </tr>
+                                    </table>
+                                </p>
+                            </div>
+                        </TabPanel>
+                        <TabPanel>
+                            <div className="workshop-content">
+                                <img src="/img/slippers.jpg" alt="slippers"/>
+                                <p>
+                                    <table>
+                                        <tr>
+                                            <td><i className="material-icons">person_add</i></td>
+                                            <td>Aantal deelnemers:</td>
+                                            <td>Minimaal 2, maximaal 4 deelnemers</td>
+                                        </tr>
+                                        <tr>
+                                            <td><i className="material-icons">access_time</i></td>
+                                            <td>Duur:</td>
+                                            <td> ca. 6 uur</td>
+                                        </tr>
+                                        <tr>
+                                            <td><i className="material-icons">euro_symbol</i></td>
+                                            <td>Kosten:</td>
+                                            <td>115,00 incl. BTW en materiaal</td>
+                                        </tr>
+                                    </table>
                                 </p>
                             </div>
                         </TabPanel>
