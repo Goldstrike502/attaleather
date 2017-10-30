@@ -1,0 +1,8 @@
+.workshop{
+    display: flex;
+    flex-direction: column;
+}
+.workshop-content{
+    display: flex;
+    flex-direction: row;
+}

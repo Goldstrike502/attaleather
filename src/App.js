@@ -5,6 +5,7 @@ import {NavItem} from "./NavItem";
 import {Home} from "./Home";
 import {Portfolio} from "./Portfolio";
 import {Latenmaken} from "./Latenmaken";
+import {Workshops} from "./Workshops";
 
 class App extends Component {
     render() {
@@ -28,6 +29,7 @@ class App extends Component {
                     <Route exact path="/" component={Home}/>
                     <Route exact path="/portfolio" component={Portfolio}/>
                     <Route exact path="/laten-maken" component={Latenmaken}/>
+                    <Route exact path="/workshops" component={Workshops}/>
                 </div>
             </Router>
         );
