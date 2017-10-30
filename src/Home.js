@@ -1,5 +1,6 @@
 import React from 'react';
 import './Home.css';
+import {Link} from "react-router-dom";
 
 export class Home extends React.Component {
     render() {
@@ -22,7 +23,7 @@ export class Home extends React.Component {
                     <h1>Hoe kan ik je helpen?</h1>
                     <br />
                     <button><span>Leren</span> maken</button>
-                    <button><span>Laten</span> maken</button>
+                    <Link to={"/laten-maken"}><button><span>Laten</span> maken</button></Link>
                 </section>
             </div>
     </div>
