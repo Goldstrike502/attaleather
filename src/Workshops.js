@@ -1,5 +1,7 @@
 import React from 'react';
 import './Workshops.css';
+import 'react-tabs/style/react-tabs.css';
+import {Tab, Tabs, TabList, TabPanel} from 'react-tabs';
 
 export class Workshops extends React.Component {
 
@@ -27,17 +29,22 @@ export class Workshops extends React.Component {
                         vriendinnen iets bijzonders wil doen, kunnen we natuurlijk een datum regelen.</p>
                 </section>
                 <div className="workshop">
-                    <header>
-                        <h2>Titel</h2>
-                    </header>
-                    <div className="workshop-content">
-                        <img src="/img/espadrilles_klein.jpg" alt="schoen"/>
-                        <p>
-                            Minimaal 2, maximaal 4 deelnemers<br />
-                            Duur: ca. 6 uur<br />
-                            Kosten: $115,00 inc. BTW en materiaal
-                        </p>
-                    </div>
+                    <Tabs>
+                        <TabList>
+                            <Tab><header><h2>Titel</h2></header></Tab>
+                            <Tab><header><h2>Titel2</h2></header></Tab>
+                        </TabList>
+                        <TabPanel>
+                            <div className="workshop-content">
+                                <img src="/img/espadrilles_klein.jpg" alt="schoen"/>
+                                <p>
+                                    Minimaal 2, maximaal 4 deelnemers<br />
+                                    Duur: ca. 6 uur<br />
+                                    Kosten: $115,00 inc. BTW en materiaal
+                                </p>
+                            </div>
+                        </TabPanel>
+                    </Tabs>
                 </div>
             </div>
         )
