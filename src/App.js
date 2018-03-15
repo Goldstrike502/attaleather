@@ -7,6 +7,7 @@ import {Portfolio} from "./Portfolio";
 import {Latenmaken} from "./Latenmaken";
 import {Workshops} from "./Workshops";
 import {createClient} from 'contentful';
+import {Footer} from "./Footer";
 export const client = createClient({
     // This is the space ID. A space is like a project folder in Contentful terms
     space: 'q8xxvl5loc88',
@@ -37,6 +38,7 @@ class App extends Component {
                     <Route exact path="/portfolio" component={Portfolio}/>
                     <Route exact path="/laten-maken" component={Latenmaken}/>
                     <Route exact path="/workshops" component={Workshops}/>
+                    <Footer />
                 </div>
             </Router>
         );

@@ -1,0 +1,17 @@
+#footer{
+    background: #2C2417;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #FBF3DA;
+    padding: 10px;
+    margin-top: 10px;
+}
+.coll{
+    display: flex;
+    align-items: center;
+}
+.coll i {
+    margin-right: 5px;
+    color: #01AFA3;
+}

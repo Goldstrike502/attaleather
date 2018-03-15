@@ -47,7 +47,7 @@ export class Workshops extends React.Component {
                         <TabPanel>
                             <div className="workshop-content">
                                 <img src="/img/espadrilles_klein.jpg" alt="espadrilles"/>
-                                <p>
+                                <div className="tablecontainer">
                                     <table>
                                         <tr>
                                             <td><i className="material-icons">person_add</i></td>
@@ -65,13 +65,13 @@ export class Workshops extends React.Component {
                                             <td>115,00 incl. BTW en materiaal</td>
                                         </tr>
                                     </table>
-                                </p>
+                                </div>
                             </div>
                         </TabPanel>
                         <TabPanel>
                             <div className="workshop-content">
                                 <img src="/img/clogs_klein.jpg" alt="clogs"/>
-                                <p>
+                                <div className="tablecontainer">
                                     <table>
                                         <tr>
                                             <td><i className="material-icons">person_add</i></td>
@@ -89,13 +89,13 @@ export class Workshops extends React.Component {
                                             <td>125,00 incl. BTW en materiaal</td>
                                         </tr>
                                     </table>
-                                </p>
+                                </div>
                             </div>
                         </TabPanel>
                         <TabPanel>
                             <div className="workshop-content">
                                 <img src="/img/babyslofjes.jpg" alt="babyslofjes"/>
-                                <p>
+                                <div className="tablecontainer">
                                     <table>
                                         <tr>
                                             <td><i className="material-icons">person_add</i></td>
@@ -113,13 +113,13 @@ export class Workshops extends React.Component {
                                             <td>39,50 incl. BTW en materiaal</td>
                                         </tr>
                                     </table>
-                                </p>
+                                </div>
                             </div>
                         </TabPanel>
                         <TabPanel>
                             <div className="workshop-content">
                                 <img src="/img/slippers.jpg" alt="slippers"/>
-                                <p>
+                                <div className="tablecontainer">
                                     <table>
                                         <tr>
                                             <td><i className="material-icons">person_add</i></td>
@@ -137,7 +137,7 @@ export class Workshops extends React.Component {
                                             <td>115,00 incl. BTW en materiaal</td>
                                         </tr>
                                     </table>
-                                </p>
+                                </div>
                             </div>
                         </TabPanel>
                     </Tabs>
