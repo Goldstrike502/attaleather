@@ -1,18 +1,38 @@
 .Nav-item a.active {
     color: #01AFA3;
-    background: #2C2417;
+    background-color: #382515;
+    border-color: #01AFA3;
+    border-style: dashed;
+    border-width: 1px;
+    margin-left: 0px;
+    margin-right: 0px;
 }
 .Nav-item a {
     font-size: 19px;
     list-style: none;
-    padding: 10px 16px;
+    padding: 0px 5px;
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
     color: #382515;
+    transition: background linear 0.3s;
     text-transform: uppercase;
     font-weight: 500;
+    margin-left: 1px;
+    margin-right: 1px;
+    
 }
 .Nav-item {
     display: inline-block;
     margin: 10px 16px;
+}
+.Nav-item a:hover {
+
+    color: #01AFA3;
+    background: rgba(44, 36, 23, 0.8);
+    border-color: #01AFA3;
+    border-style: dashed;
+    border-width: 1px;
+    margin-left: 0px;
+    margin-right: 0px;
+
 }

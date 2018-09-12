@@ -37,12 +37,12 @@ body{
 .logo {
   max-width: 100%;
   width: 190px;
+  height: 100px;
   float: left;
   margin-top: 10px;
 }
 nav {
   margin: 25px auto;
-  width: 68%;
   justify-content: space-around;
   margin-bottom: 15px;
   float: right;
@@ -58,7 +58,7 @@ p {
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   font-size: 16x;
-  line-height: 32px;
+  line-height: 35px;
 }
 h2 {
   font-family: 'Bitter', serif;

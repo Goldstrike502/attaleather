@@ -9,11 +9,11 @@ export class Workshops extends React.Component {
         return (
 
             <div className="content">
-                <h1>Workshops</h1>
+                <h1><span>Workshops</span></h1>
                 <section>
                     <h2>Werken met leer moet je leren</h2>
 
-                    <p><strong>Echt. Dat moet je doen. Waarom? Om je eigen schoenen te maken? Daar zijn toch
+                    <p><strong>Echt. Dat moet je doen. Waarom? Om je eigen schoenen te maken? <br></br>Daar zijn toch
                         schoenmakers voor?</strong>
                         <br />
                         Klopt. Ik ben er zelf een. En ik heb gemerkt wat werken met leer betekent. Je werkt met een
@@ -50,18 +50,18 @@ export class Workshops extends React.Component {
                                 <div className="tablecontainer">
                                     <table>
                                         <tr>
+                                            <td><h3>Aantal deelnemers:</h3></td>
                                             <td><i className="material-icons">person_add</i></td>
-                                            <td>Aantal deelnemers:</td>
-                                            <td>Minimaal 2, maximaal 4 deelnemers</td>
+                                            <td>Min 2, max 4 deelnemers</td>
                                         </tr>
                                         <tr>
+                                            <td><h3>Duur:</h3></td>
                                             <td><i className="material-icons">access_time</i></td>
-                                            <td>Duur:</td>
                                             <td> ca. 6 uur</td>
                                         </tr>
                                         <tr>
+                                            <td><h3>Kosten:</h3></td>
                                             <td><i className="material-icons">euro_symbol</i></td>
-                                            <td>Kosten:</td>
                                             <td>115,00 incl. BTW en materiaal</td>
                                         </tr>
                                     </table>
@@ -74,18 +74,18 @@ export class Workshops extends React.Component {
                                 <div className="tablecontainer">
                                     <table>
                                         <tr>
+                                            <td><h3>Aantal deelnemers:</h3></td>
                                             <td><i className="material-icons">person_add</i></td>
-                                            <td>Aantal deelnemers:</td>
-                                            <td>Minimaal 2, maximaal 4 deelnemers</td>
+                                            <td>Min 2, max 4 deelnemers</td>
                                         </tr>
                                         <tr>
+                                            <td><h3>Duur:</h3></td>
                                             <td><i className="material-icons">access_time</i></td>
-                                            <td>Duur:</td>
                                             <td> ca. 7 uur</td>
                                         </tr>
                                         <tr>
+                                            <td><h3>Kosten:</h3></td>
                                             <td><i className="material-icons">euro_symbol</i></td>
-                                            <td>Kosten:</td>
                                             <td>125,00 incl. BTW en materiaal</td>
                                         </tr>
                                     </table>
@@ -98,18 +98,18 @@ export class Workshops extends React.Component {
                                 <div className="tablecontainer">
                                     <table>
                                         <tr>
+                                            <td><h3>Aantal deelnemers:</h3></td>
                                             <td><i className="material-icons">person_add</i></td>
-                                            <td>Aantal deelnemers:</td>
-                                            <td>Minimaal 3, maximaal 6 deelnemers</td>
+                                            <td>Min 3, max 6 deelnemers</td>
                                         </tr>
                                         <tr>
+                                            <td><h3>Duur:</h3></td>
                                             <td><i className="material-icons">access_time</i></td>
-                                            <td>Duur:</td>
                                             <td> ca. 3 uur</td>
                                         </tr>
                                         <tr>
+                                            <td><h3>Kosten:</h3></td>
                                             <td><i className="material-icons">euro_symbol</i></td>
-                                            <td>Kosten:</td>
                                             <td>39,50 incl. BTW en materiaal</td>
                                         </tr>
                                     </table>
@@ -122,18 +122,18 @@ export class Workshops extends React.Component {
                                 <div className="tablecontainer">
                                     <table>
                                         <tr>
+                                            <td><h3>Aantal deelnemers:</h3></td>
                                             <td><i className="material-icons">person_add</i></td>
-                                            <td>Aantal deelnemers:</td>
-                                            <td>Minimaal 2, maximaal 4 deelnemers</td>
+                                            <td>Min 2, max 4 deelnemers</td>
                                         </tr>
                                         <tr>
+                                            <td><h3>Duur:</h3></td>
                                             <td><i className="material-icons">access_time</i></td>
-                                            <td>Duur:</td>
                                             <td> ca. 6 uur</td>
                                         </tr>
                                         <tr>
+                                            <td><h3>Kosten:</h3></td>
                                             <td><i className="material-icons">euro_symbol</i></td>
-                                            <td>Kosten:</td>
                                             <td>115,00 incl. BTW en materiaal</td>
                                         </tr>
                                     </table>

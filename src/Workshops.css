@@ -15,6 +15,8 @@
 }
 .workshop-content table{
 
+    min-height: 70%;
+
 }
 .react-tabs__tab{
     background: #382515;

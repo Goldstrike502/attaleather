@@ -16,17 +16,65 @@ export class Portfolio extends React.Component {
 
         const images = [
             {
-                original: '/img/portfolio/watertong.jpg',
-                thumbnail: '/img/portfolio/thumb-watertong.jpg',
+                original: '/img/portfolio/res_chelseaboot.JPG',
+                thumbnail: '/img/portfolio/thumb/thumbres_chelseaboot.JPG'
             },
             {
-                original: 'http://lorempixel.com/1000/600/nature/2/',
-                thumbnail: 'http://lorempixel.com/250/150/nature/2/'
+                original: '/img/portfolio/res_clogsdeelnemer.JPG',
+                thumbnail: '/img/portfolio/thumb/thumbres_clogsdeelnemer.JPG'
             },
             {
-                original: 'http://lorempixel.com/1000/600/nature/3/',
-                thumbnail: 'http://lorempixel.com/250/150/nature/3/'
-            }
+                original: '/img/portfolio/res_derbijpolster.JPG',
+                thumbnail: '/img/portfolio/thumb/thumbres_derbijpolster.JPG'
+            },
+            {
+                original: '/img/portfolio/res_espadrillespatroon.JPG',
+                thumbnail: '/img/portfolio/thumb/thumbres_espadrillespatroon.JPG'
+            },
+            {
+                original: '/img/portfolio/res_hogelaarspolstering.JPG',
+                thumbnail: '/img/portfolio/thumb/thumbres_hogelaarspolstering.JPG'
+            },
+            {
+                original: '/img/portfolio/res_motorlaars.JPG',
+                thumbnail: '/img/portfolio/thumb/thumbres_motorlaars.JPG'
+            },
+            {
+                original: '/img/portfolio/res_pennyloafers.JPG',
+                thumbnail: '/img/portfolio/thumb/thumbres_pennyloafers.JPG'
+            },
+            {
+                original: '/img/portfolio/res_rijglaarshibiscus.JPG',
+                thumbnail: '/img/portfolio/thumb/thumbres_rijglaarshibiscus.JPG'
+            },
+            {
+                original: '/img/portfolio/res_rijglaarsjegroen.JPG',
+                thumbnail: '/img/portfolio/thumb/thumbres_rijglaarsjegroen.JPG'
+            },
+            {
+                original: '/img/portfolio/res_slippersinmaak.JPG',
+                thumbnail: '/img/portfolio/thumb/thumbres_slippersinmaak.JPG'
+            },
+            {
+                original: '/img/portfolio/res_slofjesinmaak.JPG',
+                thumbnail: '/img/portfolio/thumb/thumbres_slofjesinmaak.JPG'
+            },
+            {
+                original: '/img/portfolio/res_sneaker.JPG',
+                thumbnail: '/img/portfolio/thumb/thumbres_sneaker.JPG'
+            },
+            {
+                original: '/img/portfolio/res_tafelleer.JPG',
+                thumbnail: '/img/portfolio/thumb/thumbres_tafelleer.JPG'
+            },
+            {
+                original: '/img/portfolio/res_watertong.JPG',
+                thumbnail: '/img/portfolio/thumb/thumbres_watertong.JPG',
+            },
+            {
+                original: '/img/portfolio/res_westernbootblauw.JPG',
+                thumbnail: '/img/portfolio/thumb/thumbres_westernbootblauw.JPG',
+            },           
         ]
 
         return (

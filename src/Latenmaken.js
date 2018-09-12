@@ -7,7 +7,7 @@ export class Latenmaken extends React.Component {
         return (
 
             <div className="content">
-                <h1><span>Laten</span> maken</h1>
+                <h1><span>Laten maken</span></h1>
                 <section>
                 <h2>Je hebt precies in je hoofd wat je wilt.</h2>
 

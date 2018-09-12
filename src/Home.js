@@ -9,8 +9,7 @@ export class Home extends React.Component {
     <div className="intro">
             <div className="bg-white">
                 <section>
-                    <h1><span>ATTA</span> het leeratelier van Anita Hardeman, sinds 2016 gevestigd in de Stadstuin Utrecht.
-                    </h1>
+                    <h1><span>Het leeratelier van Anita Hardeman</span></h1>
                     <p>Een Leeratelier, met leer in alle soorten en kleuren; onder andere op natuurlijke wijze gelooid en
                         gekleurd Ecopell leer. Én: een Leeratelier, waarin echt wat te leren valt. Anita leert zelf nog elke
                         dag. En deelt dat graag met jou, in leerzame workshops.</p>
@@ -28,7 +27,7 @@ export class Home extends React.Component {
             </div>
     </div>
             <div className="watisatta">
-                <h1>Wat is <span>ATTA</span>?</h1>
+                <h1><span>Wat is ATTA ?</span></h1>
                 <section>
                     <img src="/img/Anita.png"/>
                         <p>
