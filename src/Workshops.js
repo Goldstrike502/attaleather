@@ -32,6 +32,12 @@ export class Workshops extends React.Component {
                     <Tabs>
                         <TabList>
                             <Tab>
+                                <header><h2>Lil'sneakers</h2></header>
+                            </Tab>
+                            <Tab>
+                                <header><h2>Sneakerkit</h2></header>
+                            </Tab>
+                            <Tab>
                                 <header><h2>Espadrilles</h2></header>
                             </Tab>
                             <Tab>
@@ -46,13 +52,42 @@ export class Workshops extends React.Component {
                         </TabList>
                         <TabPanel>
                             <div className="workshop-content">
-                                <img src="/img/espadrilles_klein.jpg" alt="espadrilles"/>
+                                <img src="/img/lilsneaker.jpg" alt="lilsneaker"/>
                                 <div className="tablecontainer">
                                     <table>
                                         <tr>
                                             <td><h3>Aantal deelnemers:</h3></td>
                                             <td><i className="material-icons">person_add</i></td>
-                                            <td>Min 2, max 4 deelnemers</td>
+                                            <td>Min 3, max 6 deelnemers</td>
+                                        </tr>
+                                        <tr>
+                                            <td><h3>Duur:</h3></td>
+                                            <td><i className="material-icons">access_time</i></td>
+                                            <td> ca. 3 uur</td>
+                                        </tr>
+                                        <tr>
+                                            <td><h3>Kosten:</h3></td>
+                                            <td><i className="material-icons">euro_symbol</i></td>
+                                            <td>89,00 incl. BTW en materiaal</td>
+                                        </tr>
+                                        <tr>
+                                            <td><h3>Data 2018:</h3></td>
+                                            <td><i className="material-icons">date_range</i></td>
+                                            <td>zaterdag 27 oktober</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </TabPanel>
+                        <TabPanel>
+                            <div className="workshop-content">
+                                <img src="/img/sneakers.jpg" alt="sneakers"/>
+                                <div className="tablecontainer">
+                                    <table>
+                                        <tr>
+                                            <td><h3>Aantal deelnemers:</h3></td>
+                                            <td><i className="material-icons">person_add</i></td>
+                                            <td>Min 3, max 6 deelnemers</td>
                                         </tr>
                                         <tr>
                                             <td><h3>Duur:</h3></td>
@@ -62,7 +97,41 @@ export class Workshops extends React.Component {
                                         <tr>
                                             <td><h3>Kosten:</h3></td>
                                             <td><i className="material-icons">euro_symbol</i></td>
-                                            <td>115,00 incl. BTW en materiaal</td>
+                                            <td>179,00 incl. BTW en materiaal, exclusief lunch</td>
+                                        </tr>
+                                        <tr>
+                                            <td><h3>Data 2018:</h3></td>
+                                            <td><i className="material-icons">date_range</i></td>
+                                            <td>zaterdag 14 oktober , zondag 17 november</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </TabPanel>
+                        <TabPanel>
+                            <div className="workshop-content">
+                                <img src="/img/espadrilles_klein.jpg" alt="espadrilles"/>
+                                <div className="tablecontainer">
+                                    <table>
+                                        <tr>
+                                            <td><h3>Aantal deelnemers:</h3></td>
+                                            <td><i className="material-icons">person_add</i></td>
+                                            <td>Min 3, max 6 deelnemers</td>
+                                        </tr>
+                                        <tr>
+                                            <td><h3>Duur:</h3></td>
+                                            <td><i className="material-icons">access_time</i></td>
+                                            <td> ca. 7 uur</td>
+                                        </tr>
+                                        <tr>
+                                            <td><h3>Kosten:</h3></td>
+                                            <td><i className="material-icons">euro_symbol</i></td>
+                                            <td>129,00 incl. BTW en materiaal, exclusief lunch</td>
+                                        </tr>
+                                        <tr>
+                                            <td><h3>Data 2018:</h3></td>
+                                            <td><i className="material-icons">date_range</i></td>
+                                            <td>Momenteel geen data beschikbaar</td>
                                         </tr>
                                     </table>
                                 </div>
@@ -76,7 +145,7 @@ export class Workshops extends React.Component {
                                         <tr>
                                             <td><h3>Aantal deelnemers:</h3></td>
                                             <td><i className="material-icons">person_add</i></td>
-                                            <td>Min 2, max 4 deelnemers</td>
+                                            <td>Min 3, max 6 deelnemers</td>
                                         </tr>
                                         <tr>
                                             <td><h3>Duur:</h3></td>
@@ -86,7 +155,12 @@ export class Workshops extends React.Component {
                                         <tr>
                                             <td><h3>Kosten:</h3></td>
                                             <td><i className="material-icons">euro_symbol</i></td>
-                                            <td>125,00 incl. BTW en materiaal</td>
+                                            <td>129,00 incl. BTW en materiaal, exclusief lunch</td>
+                                        </tr>
+                                        <tr>
+                                            <td><h3>Datum 2018:</h3></td>
+                                            <td><i className="material-icons">date_range</i></td>
+                                            <td>Zondag 2 december</td>
                                         </tr>
                                     </table>
                                 </div>
@@ -105,12 +179,17 @@ export class Workshops extends React.Component {
                                         <tr>
                                             <td><h3>Duur:</h3></td>
                                             <td><i className="material-icons">access_time</i></td>
-                                            <td> ca. 3 uur</td>
+                                            <td> ca. 3,5 uur</td>
                                         </tr>
                                         <tr>
                                             <td><h3>Kosten:</h3></td>
                                             <td><i className="material-icons">euro_symbol</i></td>
-                                            <td>39,50 incl. BTW en materiaal</td>
+                                            <td>49,00 incl. BTW en materiaal</td>
+                                        </tr>
+                                        <tr>
+                                            <td><h3>Datum 2018:</h3></td>
+                                            <td><i className="material-icons">date_range</i></td>
+                                            <td>Zaterdag 10 november</td>
                                         </tr>
                                     </table>
                                 </div>
@@ -124,17 +203,22 @@ export class Workshops extends React.Component {
                                         <tr>
                                             <td><h3>Aantal deelnemers:</h3></td>
                                             <td><i className="material-icons">person_add</i></td>
-                                            <td>Min 2, max 4 deelnemers</td>
+                                            <td>Min 3, max 6 deelnemers</td>
                                         </tr>
                                         <tr>
                                             <td><h3>Duur:</h3></td>
                                             <td><i className="material-icons">access_time</i></td>
-                                            <td> ca. 6 uur</td>
+                                            <td> ca. 7 uur</td>
                                         </tr>
                                         <tr>
                                             <td><h3>Kosten:</h3></td>
                                             <td><i className="material-icons">euro_symbol</i></td>
-                                            <td>115,00 incl. BTW en materiaal</td>
+                                            <td>129,00 incl. BTW en materiaal, exclusief lunch</td>
+                                        </tr>
+                                        <tr>
+                                            <td><h3>Datum 2018:</h3></td>
+                                            <td><i className="material-icons">date_range</i></td>
+                                            <td>Zaterdag 20 oktober</td>
                                         </tr>
                                     </table>
                                 </div>

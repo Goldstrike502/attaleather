@@ -29,7 +29,7 @@ export class Home extends React.Component {
             <div className="watisatta">
                 <h1><span>Wat is ATTA ?</span></h1>
                 <section>
-                    <img src="/img/Anita.png"/>
+                    <img src="/img/anita.jpg"/>
                         <p>
                         <br />
                         Een Leeratelier, met leer in alle soorten en kleuren; onder andere op natuurlijke wijze gelooid
