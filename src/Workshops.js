@@ -161,9 +161,9 @@ export class Workshops extends React.Component {
                                             <td>129,00 incl. BTW en materiaal<br />(exclusief lunch)</td>
                                         </tr>
                                         <tr>
-                                            <td><h3>Datum 2018/2019:</h3></td>
+                                            <td><h3>Data 2019:</h3></td>
                                             <td><i className="material-icons">date_range</i></td>
-                                            <td>zondag 2 december<br />zondag 3 februari<br />zondag 31 maart</td>
+                                            <td>zondag 3 februari<br />zaterdag 20 april</td>
                                         </tr>
                                     </table>
                                 </div>
@@ -190,7 +190,7 @@ export class Workshops extends React.Component {
                                             <td>49,00 incl. BTW en materiaal</td>
                                         </tr>
                                         <tr>
-                                            <td><h3>Datum 2019</h3></td>
+                                            <td><h3>Data 2019</h3></td>
                                             <td><i className="material-icons">date_range</i></td>
                                             <td>vrijdag 1 maart<br />vrijdag 24 mei</td>
                                         </tr>
@@ -219,7 +219,7 @@ export class Workshops extends React.Component {
                                             <td>129,00 incl. BTW en materiaal<br />(exclusief lunch)</td>
                                         </tr>
                                         <tr>
-                                            <td><h3>Datum 2019:</h3></td>
+                                            <td><h3>Data 2019:</h3></td>
                                             <td><i className="material-icons">date_range</i></td>
                                             <td>zondag 27 januari<br />zondag 14 april</td>
                                         </tr>
