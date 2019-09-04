@@ -66,17 +66,17 @@ export class Workshops extends React.Component {
                                         <tr>
                                             <td><h3>Duur:</h3></td>
                                             <td><i className="material-icons">access_time</i></td>
-                                            <td> ca. 3 uur (13:00-16-00)</td>
+                                            <td> Ca. 3 uur (13:00-16-00)</td>
                                         </tr>
                                         <tr>
                                             <td><h3>Kosten:</h3></td>
                                             <td><i className="material-icons">euro_symbol</i></td>
-                                            <td>89,00 incl. BTW en materiaal</td>
+                                            <td>75,00 incl. BTW en materiaal</td>
                                         </tr>
                                         <tr>
                                             <td><h3>Data 2019:</h3></td>
                                             <td><i className="material-icons">date_range</i></td>
-                                            <td>vrijdag 8 februari<br />vrijdag 26 april</td>
+                                            <td>Zaterdag 26 oktober<br />Zondag 1 december</td>
                                         </tr>
                                     </table>
                                 </div>
@@ -95,17 +95,17 @@ export class Workshops extends React.Component {
                                         <tr>
                                             <td><h3>Duur:</h3></td>
                                             <td><i className="material-icons">access_time</i></td>
-                                            <td> ca. 6 uur</td>
+                                            <td> Ca. 6 uur</td>
                                         </tr>
                                         <tr>
                                             <td><h3>Kosten:</h3></td>
                                             <td><i className="material-icons">euro_symbol</i></td>
-                                            <td>179,00 incl. BTW en materiaal<br />(exclusief lunch)</td>
+                                            <td>159,00 incl. BTW en materiaal<br />(exclusief lunch)</td>
                                         </tr>
                                         <tr>
                                             <td><h3>Data 2019:</h3></td>
                                             <td><i className="material-icons">date_range</i></td>
-                                            <td>zondag 17 februari<br />zaterdag 23 maart<br />zondag 2 juni</td>
+                                            <td>Zondag 20 oktober<br />Zaterdag 16 november</td>
                                         </tr>
                                     </table>
                                 </div>
@@ -124,7 +124,7 @@ export class Workshops extends React.Component {
                                         <tr>
                                             <td><h3>Duur:</h3></td>
                                             <td><i className="material-icons">access_time</i></td>
-                                            <td> ca. 7 uur</td>
+                                            <td> Ca. 7 uur</td>
                                         </tr>
                                         <tr>
                                             <td><h3>Kosten:</h3></td>
@@ -134,7 +134,7 @@ export class Workshops extends React.Component {
                                         <tr>
                                             <td><h3>Data 2019:</h3></td>
                                             <td><i className="material-icons">date_range</i></td>
-                                            <td>zaterdag 1 mei<br />zaterdag 9 maart</td>
+                                            <td>Zaterdag 7 september</td>
                                         </tr>
                                     </table>
                                 </div>
@@ -153,7 +153,7 @@ export class Workshops extends React.Component {
                                         <tr>
                                             <td><h3>Duur:</h3></td>
                                             <td><i className="material-icons">access_time</i></td>
-                                            <td> ca. 7 uur</td>
+                                            <td> Ca. 7 uur</td>
                                         </tr>
                                         <tr>
                                             <td><h3>Kosten:</h3></td>
@@ -163,7 +163,7 @@ export class Workshops extends React.Component {
                                         <tr>
                                             <td><h3>Data 2019:</h3></td>
                                             <td><i className="material-icons">date_range</i></td>
-                                            <td>zondag 3 februari<br />zaterdag 20 april</td>
+                                            <td>Zaterdag 5 oktober</td>
                                         </tr>
                                     </table>
                                 </div>
@@ -182,7 +182,7 @@ export class Workshops extends React.Component {
                                         <tr>
                                             <td><h3>Duur:</h3></td>
                                             <td><i className="material-icons">access_time</i></td>
-                                            <td> ca. 3,5 uur (13:00-16:00)</td>
+                                            <td> Ca. 3,5 uur (13:00-16:00)</td>
                                         </tr>
                                         <tr>
                                             <td><h3>Kosten:</h3></td>
@@ -192,7 +192,7 @@ export class Workshops extends React.Component {
                                         <tr>
                                             <td><h3>Data 2019</h3></td>
                                             <td><i className="material-icons">date_range</i></td>
-                                            <td>vrijdag 1 maart<br />vrijdag 24 mei</td>
+                                            <td>Zaterdag 7 december</td>
                                         </tr>
                                     </table>
                                 </div>
@@ -211,7 +211,7 @@ export class Workshops extends React.Component {
                                         <tr>
                                             <td><h3>Duur:</h3></td>
                                             <td><i className="material-icons">access_time</i></td>
-                                            <td> ca. 7 uur</td>
+                                            <td>ca. 7 uur per dag</td>
                                         </tr>
                                         <tr>
                                             <td><h3>Kosten:</h3></td>
@@ -221,7 +221,7 @@ export class Workshops extends React.Component {
                                         <tr>
                                             <td><h3>Data 2019:</h3></td>
                                             <td><i className="material-icons">date_range</i></td>
-                                            <td>zondag 27 januari<br />zondag 14 april</td>
+                                            <td>Vanaf voorjaar 2020 tweedaagse cursus</td>
                                         </tr>
                                     </table>
                                 </div>
